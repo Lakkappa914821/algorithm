@@ -1,0 +1,44 @@
+# algorithm
+#it is a step by step procedure to solve the particular problem
+
+#
+'''
+the order of complexity of algorithems
+1: being the fastest
+2:being the slowest
+
+1: O(1)
+2: O(logn)
+3: O(n)
+4: O(n^2)
+5: O(n^3)
+6: O(n^k)
+7: O(2^n)
+8: O(n!)
+
+ problem number 1: calculate the sum of two numbers
+ algorithm
+1. start
+2. take two numbers as input
+3. add the two numbers
+4. output the result
+5. end'''
+
+'''def add_numbers():
+  a = int(input("enter the first number"))
+  b = int(input("enter the second number"))
+  return a+b
+print(add_numbers())'''
+
+'''1. start_
+2. take the inputs
+3. perform floor div, store ans in one variable
+4. print the result
+5. end'''
+
+def div():
+  a = int(input("enter the first number"))
+  b = int(input("enter the second number"))
+  return a//b
+print(div())
+
